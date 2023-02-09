@@ -12,9 +12,16 @@
   align-items: flex-end;
 }
 
+#donationDot {
+  font-size: 96px;
+  margin-bottom: -15px;
+  text-shadow: (5px 5px 0px darkgray);
+  text-shadow: (3px 3px 0px white);
+}
+
 #donationTotalDigits {
   font-size: 64px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   text-shadow: (5px 5px 0px darkgray);
   text-shadow: (3px 3px 0px white);
 }

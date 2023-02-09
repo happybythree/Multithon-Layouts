@@ -1,7 +1,7 @@
 {
-  "name": "speedcontrol-layouts",
+  "name": "multithon-layouts",
   "version": "1.3.7",
-  "description": "A bundle of easy-to-use NodeCG layouts for marathons to use.",
+  "description": "A bundle of easy-to-use NodeCG layouts for marathons to use; forked and edited for Multithon 2023",
   "homepage": "https://github.com/nicnacnic/speedcontrol-layouts",
   "author": "nicnacnic",
   "license": "MIT",

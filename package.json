@@ -123,6 +123,14 @@
         "width": 1920,
         "height": 1080
       }
+    ],
+    "dashboardPanels": [
+      {
+        "name": "Layout Control",
+        "title": "Layout Control",
+        "file": "layoutControl.html",
+        "width": 4
+      }
     ]
   },
   "dependencies": {

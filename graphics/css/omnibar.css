@@ -1,4 +1,5 @@
 #donationTotalContainer {
+  font-family: "Quantum";
   position: fixed;
   left: 1595px;
   top: -5px;
@@ -12,8 +13,6 @@
 }
 
 #donationTotalDigits {
-  font-family: "Quantum";
-  src: url("graphics/fonts/Quantum.ttf") format("truetype");
   font-size: 64px;
   margin-bottom: 10px;
   text-shadow: (5px 5px 0px darkgray);

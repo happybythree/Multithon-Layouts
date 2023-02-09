@@ -12,6 +12,10 @@
 }
 
 #donationTotalDigits {
+  font-family: Quantum;
+  src: local 
   font-size: 64px;
   margin-bottom: 10px;
+  text-shadow: (5px 5px 0px darkgray);
+  text-shadow: (3px 3px 0px white);
 }

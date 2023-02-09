@@ -1,0 +1,48 @@
+#game {
+  left: 719px;
+  top: 744px;
+  width: 547px;
+  height: 144px;
+}
+
+#info {
+  left: 719px;
+  top: 888px;
+  width: 547px;
+  height: 70px;
+}
+
+#category {
+  left: 1338px;
+  top: 744px;
+  width: 547px;
+  height: 70px;
+}
+
+#nameplate0 {
+  left: 0px;
+  top: 408px;
+  width: 682px;
+}
+
+#commentary {
+  left: 70px;
+  top: 480px;
+  width: 542px;
+  height: 70px;
+}
+
+#timerContainer {
+  left: 1303px;
+  top: 816px;
+  width: 617px;
+  height: 142px;
+}
+
+#timer {
+  font-size: 100px;
+}
+
+#timerDecis {
+  font-size: 75px;
+}

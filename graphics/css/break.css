@@ -1,0 +1,57 @@
+body {
+  background-color: gray;
+}
+
+#songContainer {
+  position: fixed;
+  left: 1295px;
+  top: 850px;
+  width: 625px;
+  height: 102px;
+  overflow: hidden;
+}
+#songTitle, #songArtists {
+  position: fixed;
+  font-size: 42px;
+  -webkit-text-stroke-width: 1px;
+}
+
+#songTitle {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 55px;
+  overflow: hidden;
+}
+
+#songArtists {
+  position: absolute;
+  left: 0px;
+  top: 55px;
+  height: 55px;
+  overflow: hidden;
+}
+
+#donationTotalContainer {
+  position: fixed;
+  left: 1170px;
+  top: 70px;
+  width: 499px;
+  height: 152px;
+  font-size: 213px;
+  color: #054950;
+  -webkit-text-stroke: 4px #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#innerDonationTotalContainer {
+  display: flex;
+  align-items: flex-end;
+}
+
+#donationTotalDigits {
+  font-size: 160px;
+  margin-bottom: 13px;
+}

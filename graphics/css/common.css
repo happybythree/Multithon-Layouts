@@ -1,163 +1,33 @@
-/* Font settings. */
 @font-face {
-	font-family: 'Whitestone Regular';
-	src: url('../fonts/Whitestone.otf');
+  font-family: Quantum;
+  src: url(../fonts/Quantum.ttf);
 }
 
 @font-face {
-	font-family: 'VCR OSD Regular';
-	src: url('../fonts/VCROSDMono.ttf');
+  font-family: EBGaramond-VariableFont_wght;
+  src: url(../fonts/EBGaramond-VariableFont_wght.ttf);
 }
 
 @font-face {
-	font-family: 'Oswald Regular';
-	src: url('../fonts/Oswald-Regular.ttf');
+  font-family: TT_BLUESCREENS_DEMIBOLD;
+  src: url(../fonts/TT_BLUESCREENS_DEMIBOLD.ttf);
 }
-/* You can add an unlimited amount of fonts by copy/pasting @font-face! */
 
-/* General settings. */
+@font-face {
+  font-family: DSEG7Modern-BoldItalic;
+  src: url(../fonts/DSEG7Modern-BoldItalic.ttf);
+}
+
 body {
-	font-family: 'Whitestone Regular';
-	color: #f9f9f9;
-	width: 1920px;
-	height: 1080px;
-	position: absolute;
-	margin: 0;
+  font-family: EBGaramond-VariableFont_wght;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 
-/* Game name panel. */
-#game-name {
-	font-size: 62pt;
-	font-stretch: semi-condensed;
-	text-align: center;
-	position: absolute;
-	
-	border: 2px solid transparent;
-}
-
-/* Runner name and pronouns panel. */
-.runner-container {
-	position: absolute;
-	display: flex;
-	
-	border: 2px solid transparent;
-}
-
-.runner-name {
-	font-size: 26pt;
-	font-stretch: semi-condensed;
-	float: left;
-	vertical-align: middle;
-	width: 100%;
-
-	border: 2px solid transparent;
-}
-
-.pronouns {
-	font-size: 18pt;
-	vertical-align: middle;
-	text-align: right;
-	float: right;
-}
-
-.medals {
-	margin-top: 8px;
-	vertical-align: middle;	
-	float: right;
-
-	border: 2px solid transparent;
-}
-
-.medals-img {
-	width: 20px;
-	height: 20px;
-
-	border: 2px solid transparent;
-}
-
-.finalTime {
-	height: 100%;
-	font-size: 18pt;
-	margin-right: 5px;
-	font-stretch: semi-condensed;
-	vertical-align: middle;
-	color: #50ff50;
-
-	border: 2px solid transparent;
-}
-
-/* Category and estimate panel. */
-#info-container {
-	font-size: 21pt;
-	position: absolute;
-	display: flex;
-	
-	border: 2px solid transparent;
-}
-
-/* Stopwatch image height. */
-#estimate-label img {
-	height: 18pt;
-}
-
-#category {
-	float: left;
-	vertical-align: middle;
-	flex: 1;
-}
-
-#info {
-	float: left;
-	vertical-align: middle;
-	flex: 1;
-}
-
-#estimate-container {
-	float: right;
-	vertical-align: middle;
-}
-
-#estimate-label {
-	display: inline-block;
-	vertical-align: middle;
-	margin-left: 10px;
-	margin-right: -5px;
-	margin-top: 2px;
-}
-
-#estimate {
-	display: inline-block;
-}
-
-/* Timer panel. */
-#timer {
-	font-family: 'VCR OSD Regular';
-	font-stretch: expanded;
-	font-size: 76pt;
-	text-align: center;
-	position: absolute;
-	
-	border: 2px solid transparent;
-}
-
-.timer_stopped {
-	color: #c0c0c0;
-}
-
-.timer_paused {
-	color: #c0c0c0;
-}
-
-.timer_finished {
-	color: #50ff50;
-}
-
-/* Sponsor panel. */
-#sponsor-container {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	position: absolute;
-	
-	border: 2px solid transparent;
+#background {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: -10;
 }

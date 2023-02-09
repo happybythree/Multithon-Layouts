@@ -1,0 +1,15 @@
+@import "common.css";
+
+#timerContainer {
+  justify-content: center;
+}
+
+#innerTimerContainer {
+  display: flex;
+  align-items: flex-end;
+}
+
+#timer {
+  font-family: EBGaramond-VariableFont_wght;
+  -webkit-text-stroke-width: 2px;
+}

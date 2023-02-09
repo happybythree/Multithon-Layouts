@@ -1,0 +1,14 @@
+#timerContainer {
+  left: 1303px;
+  top: 816px;
+  width: 617px;
+  height: 142px;
+}
+
+#timer {
+  font-size: 100px;
+}
+
+#timerDecis {
+  font-size: 75px;
+}

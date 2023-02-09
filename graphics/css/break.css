@@ -33,9 +33,10 @@ body {
 }
 
 #donationTotalContainer {
+  font-family: "Quantum";
   position: fixed;
-  left: 1170px;
-  top: 70px;
+  left: 1180px;
+  top: 35px;
   width: 499px;
   height: 152px;
   font-size: 213px;
@@ -51,7 +52,16 @@ body {
   align-items: flex-end;
 }
 
+#donationDot {
+  font-size: 213px;
+  margin-bottom: -40px;
+  text-shadow: (5px 5px 0px darkgray);
+  text-shadow: (3px 3px 0px white);
+}
+
 #donationTotalDigits {
   font-size: 160px;
-  margin-bottom: 13px;
+  margin-bottom: -15px;
+  text-shadow: (5px 5px 0px darkgray);
+  text-shadow: (3px 3px 0px white);
 }
